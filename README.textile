@@ -8,18 +8,16 @@ apt-get install rubygems
 apt-get install git
 </code></pre>
 
-** script/plugin install  http://activescaffold.googlecode.com/svn/tags/active_scaffold
-
-
-
--- Install on OSX Snow Leopard
+h2. Install on OSX Snow Leopard
 from:  http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
 
-Make the new folder:
+<code><pre>
+<b>Make the new folder:</b>
 
 mkdir ~/src
 cd ~/src
 
+</code></pre>
 Download Ruby and Rubygems:
 
 curl -O ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p174.tar.gz
