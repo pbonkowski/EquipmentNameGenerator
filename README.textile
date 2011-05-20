@@ -9,10 +9,10 @@ apt-get install git
 </code></pre>
 
 h2. Install on OSX Snow Leopard
-from:  http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
+b. from:  http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
 
 <pre><code>
-<b>Make the new folder:</b>
+Make the new folder:
 
 mkdir ~/src
 cd ~/src
