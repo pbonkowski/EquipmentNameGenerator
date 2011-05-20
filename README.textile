@@ -1,0 +1,78 @@
+h2. Install Ubuntu
+
+<pre><code>
+sudo su
+apt-get install build-essential
+apt-get install ruby rdoc libopenssl-ruby
+apt-get install rubygems
+apt-get install git
+</code></pre>
+
+** script/plugin install  http://activescaffold.googlecode.com/svn/tags/active_scaffold
+
+
+
+-- Install on OSX Snow Leopard
+from:  http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
+
+Make the new folder:
+
+mkdir ~/src
+cd ~/src
+
+Download Ruby and Rubygems:
+
+curl -O ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p174.tar.gz
+curl -O http://files.rubyforge.vm.bytemark.co.uk/rubygems/rubygems-1.3.5.tgz
+
+Step 3: Compile and Install
+
+First, Ruby:
+
+tar xzvf ruby-1.8.7-p174.tar.gz
+cd ruby-1.8.7-p174
+./configure --enable-shared --enable-pthread CFLAGS=-D_XOPEN_SOURCE=1
+make
+sudo make install
+cd ..
+
+To verify that Ruby is installed and in your path, just type:
+
+which ruby
+You should see:
+
+/usr/local/bin/ruby
+
+If you do, this means you now have a super-fast, 64-bit version of Ruby ready to go. If you saw something different, you haven’t set your path correctly. Go back and try again.
+
+Compile and install RubyGems:
+
+tar xzvf rubygems-1.3.5.tgz
+cd rubygems-1.3.5
+sudo /usr/local/bin/ruby setup.rb
+cd ..
+
+Install Rails:
+
+sudo gem install rails
+
+
+-- Windows Install 
+
+Download and run railsInstaller.exe
+
+http://files.rubyforge.vm.bytemark.co.uk/railsinstaller/railsinstaller-1.1.1.exe
+
+
+h2. gem installs
+<pre><code>
+gem install rails
+gem install rake
+gem install active_scaffold_vho
+gem install active_scaffold_config_list_vho
+gem install active_scaffold_batch_vho
+gem install active_scaffold_export_vho
+gem install active_scaffold_sortable_vho
+gem install recordselect_vho
+gem install render_component_vho
+</code></pre>
