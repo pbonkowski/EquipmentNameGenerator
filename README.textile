@@ -79,3 +79,5 @@ gem install recordselect_vho
 gem install render_component_vho
 gem install hobo
 </code></pre>
+
+updated 5-20-2011 2311 EST
