@@ -45,7 +45,7 @@ You should see:
 <pre><code>
 /usr/local/bin/ruby
 </code></pre>
-If you do, this means you now have a super-fast, 64-bit version of Ruby ready to go. If you saw something different, you haven’t set your path correctly. Go back and try again.
+If you do, this means you now have a super-fast, 64-bit version of Ruby ready to go. If you saw something different, you havenï¿½t set your path correctly. Go back and try again.
 
 Compile and install RubyGems:
 <pre><code>
@@ -73,4 +73,5 @@ gem install active_scaffold_export_vho
 gem install active_scaffold_sortable_vho
 gem install recordselect_vho
 gem install render_component_vho
+gem install hobo
 </code></pre>
